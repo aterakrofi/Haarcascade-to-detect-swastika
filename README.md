@@ -1,4 +1,4 @@
-# Haarcascade-to-detect-swastika
+# Training your own Harcascade 
 
 1.#Clone this repository with : git clone https://github.com/mrnugget/opencv-haar-classifier-training  OR download from
 http://sourceforge.net/projects/opencvlibrary/files/?source=navbar
