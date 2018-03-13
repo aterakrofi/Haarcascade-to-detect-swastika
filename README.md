@@ -47,8 +47,8 @@ opencv_traincascade -data classifier -vec samples.vec -bg negatives.txt\
   -precalcIdxBufSize 1024
   
   # STEP 2: Test trained cascade . 
- To test your cascade on a test image use the code from detect_from_image.py. Testing on a webcam feed can be done using detect_using_webcam.py. Use your own supplied image by replacing the line   'cap = cv2.VideoCapture(0)' in you code
+ To test your cascade on a test image use the code from detect_from_image_source.py. Testing on a webcam feed can be done using detect_using_webcam.py. Use your own supplied image by replacing the line   'cap = cv2.VideoCapture(0)' in you code
  with something like this   ' cap = cv2.VideoCapture('test.mp4') '
  
  # STEP 3: Censor Region of Interest
- Censor region of interest within an image using the detect_Censor_image.py
+ Censor region of interest within an image using the detect_censor_image.py
