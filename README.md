@@ -1,4 +1,4 @@
-# Training your own Harcascade 
+# STEP 1 : Train your own Harcascade 
 
 1.#Clone this repository with : git clone https://github.com/mrnugget/opencv-haar-classifier-training  OR download from
 http://sourceforge.net/projects/opencvlibrary/files/?source=navbar
@@ -45,3 +45,10 @@ opencv_traincascade -data classifier -vec samples.vec -bg negatives.txt\
   -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 1000\
   -numNeg 600 -w 80 -h 40 -mode ALL -precalcValBufSize 1024\
   -precalcIdxBufSize 1024
+  
+  # STEP 2: Test trained cascade . 
+ To test your cascade on a test image use the code from detect_from_image.py. Testing on a webcam feed can be done using detect_using_webcam.py. Use your own supplied image by replacing the line   'cap = cv2.VideoCapture(0)' in you code
+ with something like this   ' cap = cv2.VideoCapture('test.mp4') '
+ 
+ # STEP 3: Censor Region of Interest
+ Censor region of interest within an image using the detect_Censor_image.py
