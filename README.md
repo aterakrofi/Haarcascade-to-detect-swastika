@@ -5,8 +5,8 @@ http://sourceforge.net/projects/opencvlibrary/files/?source=navbar
 
 2. Download 20-40 good positive images(use fakuum batch download)
 
-3. Crop images using processing J3 
-Download processing script from repo - https://github.com/thiagohersan/memememe/tree/master/Processing/PositiveCollectionTagger. 
+3. Crop images using processing J3. 
+Download the PositiveCollectionTagger processing script from the repo - https://github.com/thiagohersan/memememe/tree/master/Processing/PositiveCollectionTagger. 
 In the repo folder go to data/positive_clean and paste positive images 
 run PositiveCollectionTagger.pde with J3 processing.Cropped postive images would be generated 
 
