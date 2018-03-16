@@ -1,4 +1,4 @@
-#Project
+# Project
 The abuse of expressionism and ignorance  has seen  the rise of , use and unapologetic display of swastika symbols by anti-semitic and hate groups across the united states . The focus of this project is to recognize and censor an offensive symbol such as the swastika within portions of an image or a video .
 
 
